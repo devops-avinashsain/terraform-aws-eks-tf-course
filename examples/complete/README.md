@@ -7,5 +7,7 @@ repo root is consumed as a module, not applied directly.
 ```bash
 # one-time: create the S3 state bucket (see scripts/bootstrap-backend.sh)
 terraform init
+terraform fmt
+terraform validate
 terraform apply
 ```
