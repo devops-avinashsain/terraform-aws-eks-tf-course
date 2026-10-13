@@ -12,7 +12,7 @@ its own, or together through the root module shown below.
 
 ```hcl
 module "eks_platform" {
-  source = "github.com/Avinashsain/terraform-aws-eks-tf-course"
+  source = "github.com/devops-avinashsain/terraform-aws-eks-tf-course"
 
   project_name = "my-app"
   environment  = "dev"
